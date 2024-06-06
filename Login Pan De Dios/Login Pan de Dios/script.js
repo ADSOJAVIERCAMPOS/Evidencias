@@ -13,7 +13,7 @@ document.getElementById('formLogin').addEventListener('submit', function (e){
     });
 
     if(usuarioValido) {
-        window.location.href = "index.html";
+        window.location.href = "home.html";
     } else {
         let errorMessage = document.getElementById('error-message');
         errorMessage.textContent = 'Usuario o contraseña incorrecto. Por favor, inténtalo de nuevo.'
